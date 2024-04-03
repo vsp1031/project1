@@ -1,8 +1,13 @@
 import React from 'react'
+import Navbar from './Components/Navbar'
+import Main from './Components/Main'
 
 function App() {
   return (
-    <div className='bg-zinc-900 text-white flex w-full h-screen items-center justify-center'>App</div>
+    <>
+     <Navbar/>
+     <Main/>
+    </>
   )
 }
 
